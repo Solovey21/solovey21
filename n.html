@@ -16,12 +16,10 @@
 					</div>
 					<div id="bel">
 						<div id="blef">
-							<div><a id="glav">Главня</a></div>
-							<div><a id="magaz">Магазин</a></div>
-							<div><a id="kontakt">Контакты</a></div>
+							
 						</div>
 						<div id="blig">
-							<div><p id="nom">+380660990070</p></div>
+							
 						
 						
 						</div>
@@ -41,22 +39,28 @@
 			</div>
 		</div>
 		<div id="tovar">
-		<form action="sender.php" method="POST">
+		<form action="mail.php" method="POST">
+			<!-- Hidden Required Fields -->
+			<input type="hidden" name="project_name" value="Magazin">
+			<input type="hidden" name="admin_email" value="msoloveyj75@gmail.com">
+			<input type="hidden" name="form_subject" value="Form Subject">
+			<!-- END Hidden Required Fields -->
 			<p>
 				<label for="phone" id="phone1">Укажите ваш номер телефона:</label>
-				<input id="phone" type="tel" name="phone" placeholder="Ваш телефон?" maxlength="13">
+				<input id="phone" type="tel" name="Phone" placeholder="Ваш телефон?" maxlength="13">
 			</p>
 			<p>
 				<label for="imya1" id="phone1">Как вас зовут:</label>
-				<input id="imya" type="tel" name="name" placeholder="Ваше имя?" maxlength="13">
+				<input id="imya" type="tel" name="Name" placeholder="Ваше имя?" maxlength="13">
 			</p>
 			<p>
 				<label for="imya1" id="phone1">Напишите почту:</label>
-				<input id="imya"  name="email" placeholder="Ваша почта?" maxlength="">
+				<input id="imya"  name="E-mail" placeholder="Ваша почта?" maxlength="">
 			</p>
 			<p>
 				<button type="button" id="otpr">Отправить</button>
 			</p>
+			
 		</form>
 		</div>
 			
@@ -71,5 +75,7 @@
 			
 		</div>
 	</div>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="main.js"></script>
 	</body>
 </html>
