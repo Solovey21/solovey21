@@ -13,12 +13,12 @@ $phone = $_POST['user_phone'];
 $mail->isSMTP();                                      
 $mail->Host = 'smtp.mail.ru';  																							// Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               
-$mail->Username = 'sinformatsiya@internet.ru'; 
+$mail->Username = 'sinformatsiya1@mail.ru'; 
 $mail->Password = '?yTo2LLa5itA'; 
 $mail->SMTPSecure = 'ssl';                            
 $mail->Port = 465; 
 
-$mail->setFrom('sinformatsiya@internet.ru'); 
+$mail->setFrom('sinformatsiya1@mail.ru'); 
 $mail->addAddress('msoloveyj75@gmail.com');
 //$mail->addAddress('ellen@example.com');               
 //$mail->addReplyTo('info@example.com', 'Information');
