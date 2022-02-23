@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#obch {
+	
+	margin-left: auto;
+    margin-right: auto;
+	height: 90%;
+	width: 100%;
+	min-height: ;
+}
+#top {
+	background: #404040;
+	height: 135px;
+	width: 100%;
+}
+#ch {
+	height: ;
+}
+#bel {
+	background: white;
+	height: 25px;
+	
+}
+p {
+	color: black;
+}
+#blef {
+	
+	height: 25px;
+	
+	float: left;
+	display: flex;
+	
+}
+#blig {
+	
+	height: 25px;
+	width: 210px;
+	float: right;
+}
+#glav {
+	
+	display: inline-block;
+	
+	height: 25px;
+	margin-left: 35px;
+	line-height: 25px;
+}
+#magaz {
+	
+	display: inline-block;
+	
+	height: 25px;
+	margin-left: 10px;
+	line-height: 25px;
+	
+}
+#kontakt {
+	
+	display: inline-block;
+	
+	height: 25px;
+	margin-left: 15px;
+	line-height: 25px;
+}
+#nom {
+	margin-left: 20px;
+	line-height: 25px;
+}
+#nazv {
+	color: white;
+	text-align: center;
+	line-height: 110px;
+}
+#glkar {
+	position: relative;
+	overflow: hidden;
+	height: 470px;
+}
+#glkar1 {
+	display: block;
+	width: 100%;
+	margin: auto;
+	margin-top: 4%;
+	
+}
+#toch {
+	text-align: center;
+	margin-top: 3%;
+}
+#ob {
+	margin-left: auto;
+    margin-right: auto;
+	height: 90%;
+	width: 100%;
+	min-height: 900px;
+}
+#tovar {
+	background: ;
+	margin-left: auto;
+    margin-right: auto;
+	height: 100%;
+	width: 90%
+}
+#k1 {
+	
+	background: white;
+	width: 16%;
+	margin-left: 3%;
+	margin-top: 3%;
+	float: top;
+	display: inline-block;
+	height: 100%;
+}
+#k2 {
+	display: block;
+	width: 100%;
+	margin: auto;
+	margin-top: ;
+	
+}
+#pl {
+	text-align: center;
+	margin-top: 2%;
+}
+#loi {
+	
+}
+#lop {
+	
+	user-select: none;
+	text-decoration: none;
+	outline: none;
+}

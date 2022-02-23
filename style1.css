@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#obch {
+	
+	margin-left: auto;
+    margin-right: auto;
+	height: 90%;
+	width: 100%;
+	min-height: ;
+}
+#top {
+	background: #404040;
+	height: 135px;
+	width: 100%;
+}
+#ch {
+	height: ;
+}
+#bel {
+	background: white;
+	height: 25px;
+	
+}
+p {
+	color: black;
+}
+#blef {
+	
+	height: 25px;
+	
+	float: left;
+	display: flex;
+	
+}
+#blig {
+	
+	height: 25px;
+	width: 210px;
+	float: right;
+}
+#glav {
+	
+	display: inline-block;
+	
+	height: 25px;
+	margin-left: 35px;
+	line-height: 25px;
+}
+#magaz {
+	
+	display: inline-block;
+	
+	height: 25px;
+	margin-left: 10px;
+	line-height: 25px;
+	
+}
+#kontakt {
+	
+	display: inline-block;
+	
+	height: 25px;
+	margin-left: 15px;
+	line-height: 25px;
+}
+#nom {
+	margin-left: 20px;
+	line-height: 25px;
+}
+#nazv {
+	color: white;
+	text-align: center;
+	line-height: 110px;
+}
+#glkar {
+	position: relative;
+	overflow: hidden;
+	height: 470px;
+}
+#glkar1 {
+	display: block;
+	width: 100%;
+	margin: auto;
+	margin-top: 4%;
+}
+#toch {
+	text-align: center;
+	margin-top: 3%;
+	font-size: 25pt;
+}
+#ob {
+	margin-left: auto;
+    margin-right: auto;
+	height: 90%;
+	width: 100%;
+	min-height: 900px;
+}
+#tovar {
+	background: #404040;
+	margin-left: auto;
+    margin-right: auto;
+	height: 100%;
+	width: 45%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+#phone1 {
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-left: 20%;
+	color: white;
+	font-size: 15pt;
+	
+}
+#phone {
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-left: 2%;
+	font-size: 13pt;
+}
+#imya1 {
+	margin-top: 2%;
+	margin-bottom: 4%;
+	margin-left: 20%;
+	color: white;
+	font-size: 15pt;
+}
+#imya {
+	margin-top: 2%;
+	margin-bottom: 4%;
+	margin-left: 2%;
+	font-size: 13pt;
+}
+#otpr {
+	
+}
