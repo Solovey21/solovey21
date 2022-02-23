@@ -3,7 +3,7 @@
 	$phone = $_POST['user_phone'];
     
 
-	$to = "denis.koblya@gmail.com"; 
+	$to = "msoloveyj75@gmail.com"; 
 	$date = date ("d.m.Y"); 
 	$time = date ("h:i");
 	$from = $email;
